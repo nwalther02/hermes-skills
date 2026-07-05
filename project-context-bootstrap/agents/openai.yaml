@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Context Bootstrap"
+  short_description: "Verify AI context before repo work"
+  default_prompt: "Use $project-context-bootstrap to verify AI-context status in this repo."

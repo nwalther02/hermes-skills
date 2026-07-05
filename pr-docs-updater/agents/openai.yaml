@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR Docs Updater"
+  short_description: "Update PR docs from focused diffs"
+  default_prompt: "Use $pr-docs-updater to update documentation for this PR from the focused git diff."

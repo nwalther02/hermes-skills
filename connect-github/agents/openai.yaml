@@ -1,0 +1,7 @@
+interface:
+  display_name: "Connect GitHub"
+  short_description: "Use GitHub app tools first"
+  default_prompt: "Use $connect-github to inspect the current GitHub repository or PR with the GitHub app tools."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Docs Projects"
+  short_description: "Create and retrieve project Google Docs"
+  default_prompt: "Use $google-docs-project-upload to find or create a project Google Doc under Projects/<projectname>."

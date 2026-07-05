@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub PR Shipper"
+  short_description: "Commit, PR, repair, and merge cleanly"
+  default_prompt: "Use $github-pr-shipper to push and commit this work, refresh local main, update docs, repair PR issues, and merge after green gates."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA Dev Docker"
+  short_description: "Add production-shaped Docker Dev/QA workflows to existing apps."
+  default_prompt: "Use $qa-dev-docker to add or plan a production-shaped Docker Dev/QA workflow for this app."

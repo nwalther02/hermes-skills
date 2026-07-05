@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fitness PWA Repo Orient"
+  short_description: "Orient quickly in the fitness-pwa repo"
+  default_prompt: "Use $fitness-pwa-repo-orient to orient before changing fitness-pwa."
