@@ -29,7 +29,7 @@ Use this for memory cleanup, not ordinary repo cleanup. The safe default is to s
 To list task groups and line counts:
 
 ```bash
-bash ~/.claude/skills/memory-pruner/scripts/list-task-groups.sh /Users/nicksmac/.codex/memories/MEMORY.md
+scripts/list-task-groups.sh /Users/nicksmac/.codex/memories/MEMORY.md
 ```
 
 ## Prune Note Shape

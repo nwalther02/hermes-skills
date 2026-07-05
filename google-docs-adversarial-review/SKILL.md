@@ -7,7 +7,7 @@ description: Performs user-specific adversarial reviews directly inside live Goo
 
 ## Quick start
 
-Use connected Google Docs or Drive tools when available. The deliverable is usually the live doc updated and verified, not just a chat summary.
+Use connected Google Docs/Drive tools. The deliverable is usually the live doc updated and verified, not just a chat summary.
 
 ## Workflow
 
@@ -17,7 +17,7 @@ Use connected Google Docs or Drive tools when available. The deliverable is usua
 4. Write findings-first critique: severity-ranked, implementation-focused, and tied to exact document claims where possible.
 5. Append or insert the review into the live document when requested.
 6. Re-read the inserted boundary paragraphs to verify the edit landed.
-7. Clean inherited list or bullet formatting if the appended section picked up the prior list style.
+7. Clean inherited list/bullet formatting if the appended section picked up the prior list style.
 8. Return the exact document link and note what was verified.
 
 ## Review Focus

@@ -1,9 +1,9 @@
 ---
-name: repo-hygiene-worktree-cleanup
-description: Safely handles repo hygiene around helper worktrees such as `.claude/worktrees` by verifying Git worktree registration and nested cleanliness before cleanup. Use when the user asks to drop helper worktrees, clean repo-local agent folders, decide whether `.claude/worktrees` should be merged/deleted, or remove stale local worktrees.
+name: repo-worktree-cleanup
+description: Safely cleans repo-local helper worktrees such as `.claude/worktrees` by verifying Git worktree registration and nested checkout cleanliness first. Use when the user asks whether helper folders should be deleted/merged, cleanup `.claude/worktrees`, remove stale worktrees, or handle repo hygiene around local agent worktrees.
 ---
 
-# Repo Hygiene Worktree Cleanup
+# Repo Worktree Cleanup
 
 ## Quick start
 
@@ -22,5 +22,5 @@ Use this for repo-local helper folders that may be real Git worktrees rather tha
 
 - Do not treat `.claude/worktrees` or similar helper folders as docs/config clutter without checking Git state.
 - Do not delete dirty or unregistered nested checkouts without explicit user approval.
-- Keep cleanup scoped to the user-named paths.
+- Keep cleanup scoped to the user-named worktrees.
 - Report skipped paths and why they were skipped.
